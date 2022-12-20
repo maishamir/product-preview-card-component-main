@@ -24,6 +24,10 @@ body {
   background-color: white;
   border-radius: 20px;
   z-index: 1;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
 }
 
 .image {
@@ -131,6 +135,12 @@ body > div > div.price > h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.15s;
+}
+
+.button:hover {
+  background-color: hsl(158, 35%, 25%);
+  cursor: pointer;
 }
 
 .icon {
